@@ -1,0 +1,66 @@
+#navbar {
+background-color: rgb(44, 48, 48);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+#navbar a {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+#navbar a:hover {
+  color: rgb(255, 242, 0);
+  text-decoration: underline;
+}
+#navbar a.active:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+#navbar .kalvium{
+    padding-left: 55%;
+  color: rgb(0, 21, 255);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.child{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* #navbar span:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#navbar span.active {
+  color: blue;
+  text-decoration: underline;
+}
+#navbar span.active:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+#navbar span:last-child:hover {
+  color: red;
+  text-decoration: underline;
+}
+#navbar span:last-child.active {
+  color: red;
+  text-decoration: underline;
+} */
